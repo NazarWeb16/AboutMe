@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+      url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+      url('../fonts/Gilroy-Medium.woff') format('woff'),
+      url('../fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+*{
+  padding:0;
+  margin:0;
+  border:0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display:block;}
+
+html,body{
+  height:100%;
+  width:100%;
+  font-size:100%;
+  line-height: 1;
+  font-size:14px;
+  -ms-text-size-adjust:100%;
+  -moz-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+}
+
+input, button, textarea{font-family:inherit;}
+
+input::-ms-clear {display:none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border:0;}
+a, a:visited{text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6 {font-size:inherit; font-weight:400;}
+
+/* Стили для обнуления */
+
+body{
+  max-width:944px;
+  margin:0 auto;
+}
+
+.wrapper{
+  max-width:944px;
+  margin: 0px auto;
+}
+/* Обёртка (сетка сайта) */
+
+*{
+  font-family: Gilroy;
+}
+
+/* Задаю все элементам на странице шрифт */
+
+a{
+  color:#828282;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+a:hover, langRu:hover, langEn:hover{
+  color:black;
+}
+
+/* Крашу ссылки */
+
+.menu{
+  display: flex;
+  padding:33px 0px;
+  border-bottom: 1px solid #828282;
+}
+
+.menu a{  
+  flex-basis: 20%;
+  text-align: center;
+}
+
+/* Позиционирую навигацию(меню) */
+
+.mainTitle{
+  font-size: 48px;
+  color:#070707;
+  font-weight: 700;
+}
+
+.personInfo, .lang{
+  font-size: 18px;
+  color: #070707;
+}
+
+.lang{
+  font-weight: 700;
+  color:#828282;
+  writing-mode:vertical-lr;
+}
+
+.herro{
+  display: flex;
+  align-items: flex-end;
+  padding:33px 0px;
+  justify-content: space-between;
+}
+
+.myMainPhoto{
+  padding: 0px 0px 104px 0px;
+}
+
+.title_aboutMe, .title_skills, .title_myPortfolio, .title_contscts{
+  font-size: 34px;
+  color: #070707;
+  font-weight: 700;
+  text-align: center;
+  padding: 120px 0px 17px 0px;
+}
+
+.about_me, .portfolio{
+  background-color: #f1f1f1;
+}
+
+.info_about_me p, .my_skills>p{
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 0px;
+  color: #070707;
+  line-height: 25px;
+  max-width: 485px;
+  margin: 0px auto;
+}
+
+.my_skills>p{
+  padding-bottom: 83px;
+}
+
+.block_my_skills .skills_content>img{
+  height:200px;
+  max-width:200px;
+}
+
+.block_my_skills{
+  display: flex;
+  justify-content: space-between;
+}
+
+.block_my_skills div p{
+  padding: 23px 0px 41px 0px;
+  text-align: center;
+}
+
+.block_my_skills .skills_content .star img{
+  height:20px;
+  width:20px;
+}
+
+.block_my_skills .skills_content .star{
+  text-align: center;
+  padding-bottom: 110px;
+}
+
+.lp_ts{
+  padding: 45px 0px 100px 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contacts p{
+  font-size: 18px;
+  padding: 20px 0px 30px 0px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.button_send_massage a{
+  padding:13px 30px;
+  background-color: black;
+  border-radius: 50px;
+  color:white;
+  text-align: center;
+  font-weight: 400;
+}
+
+.button_send_massage a:hover{
+  background-color: white;
+  color:black;
+  border: 1px black solid; 
+  transition-duration: 0.5s;  
+}
+
+.button_send_massage{
+  padding-bottom: 85px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  padding:100px 0px 40px 0px;
+}
+
+.icons a img{
+  height:60px;
+  width:60px;
+  margin-right: 30px;
+}
+
+.contacts .text-link p{
+  color:#828282;
+}
+
+footer{
+  padding-bottom: 100px;
+}
